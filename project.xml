@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+		<bookshop>
+			   
+			   <!-- departement scientific products -->
+			    
+				<departement type="scientificproducts">
+					<books>
+						<book genre="scientific" ISBNnumber="1" edition="first">
+							<title> mathematiques</title>
+							<authors>
+								<select>
+									<option name="authors" type="authors"> authors</option>
+									<option name="editors" type="editors"> editors</option>
+								</select>
+							</authors>
+							<publisher>pluton</publisher>
+							<yearofpublication>10/03/2005</yearofpublication>	
+						</book>
+					</books>
+					
+					<journals>
+						<journal genre="scientific" number="1" publisher="thomas">
+							<title> journal</title>
+							<volume> /////</volume>
+							<authors>
+								<select>
+									<option name="authors" type="authors"> authors</option>
+									<option name="editors" type="editors"> editors</option>
+								</select>
+							</authors>
+							<yearofpublication>10/07/2015</yearofpublication>	
+							<impactfactor>----------------</impactfactor>	
+							<yearinwhichimpactfactorisvalid>-04/04/2018</yearinwhichimpactfactorisvalid>	
+							<table>
+								<caption>table articles</caption>
+								<tr>
+									<th>Article number</th>
+									<th>Title</th>
+									<th>List of authors</th>
+									<!---th>start page</th>
+									<th>end page</th-->
+								</tr>
+								</tr>
+									<td>01</td>
+									<td>jeune Afrique</td>
+									<td>Gilles Dejaegere, Stijn, thomas</td>
+								</tr>
+								</tr>
+									<td>02</td>
+									<td>rfi news</td>
+									<td>Gilles Dejaegere, Stijn, thomas</td>
+								</tr>
+								</tr>
+									<td>03</td>
+									<td>tf1 news</td>
+									<td>Gilles Dejaegere, Stijn, thomas</td>
+								</tr>
+							</table>	
+						</journal>
+					</journals>
+					
+					
+				</departement>
+				
+			    <!-- departement leisure products -->
+				
+			    <departement type="leisureproducts">
+					<books>
+						<book genre="leisure">
+							<title> romance</title>
+							<authors>
+								<select>
+									<option name="authors" type="authors"> authors</option>
+									<option name="editors" type="editors"> editors</option>
+								</select>
+							</authors>
+							<publisher>ulb leisure</publisher>
+							<yearofpublication>10/06/2015</yearofpublication>
+							<genres>
+								<select>
+									<option value="thriller">thriller</option>
+									<option value="horror">horror</option>
+									<option value="sci/fi">sci/fi</option>
+									<option value="romance">romance</option>
+									<option value="literature">literature</option>
+								</select>
+							</genres>
+							<edition></edition>
+							<numberofpage></numberofpage>
+						</book>
+					</books>
+					
+					<periodicals>
+						<periodical genre="leisure">
+							<title></title>
+							<price></price>
+							<publisher></publisher>
+						</periodical>
+					</periodicals>
+				</departement>
+				
+		</bookshop>
+			
+</xs:schema>
