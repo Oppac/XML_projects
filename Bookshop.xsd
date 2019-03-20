@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:bk="http://www.bookshop.be/Books"
+  xmlns:jn="http://wwww.bookshop.be/Journals"
+  targetNamespace="http://www.bookshop.be"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:Bks="http://www.bookshop.be/Bookshop"
+  elementFormDefault="qualified">
+
+  <xs:import schemaLocation="Books.xsd"
+             namespace="http://www.bookshop.be/Books" />
+
+  <xs:import schemaLocation="Journals.xsd"
+             namespace="http://wwww.bookshop.be/Journals" />
+
+  <xs:element name="Bookshop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Bks:ScientificDepartement" />
+        <xs:element ref="Bks:LeisureDepartement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ScientificDepartement">
+    <xs:complexType>
+      <xs:sequence>
+        <element name="SBook" type="bk:ScientificBook" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="LeisureDepartement">
+    <xs:complexType>
+      <xs:sequence>
+        <element name="LBook" type="bk:LeisureBook" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

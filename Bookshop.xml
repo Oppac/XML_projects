@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bks:Bookshop xmlns:Bks="http://www.bookshop.be"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.bookshop.be Bookshop.xsd">
+
+<Bks:ScientificDepartement>
+   <Bks:Book>
+      <Bks:Title>The Origin of Species</Bks:Title>
+      <Bks:Publisher>Castle Books</Bks:Publisher>
+      <Bks:PublicationYear>1859</Bks:PublicationYear>
+      <Bks:Edition>English edition</Bks:Edition>
+      <Bks:Authors>Charles Darwin</Bks:Authors>
+      <Bks:Abstract>Darwin's theory of natural selection
+       issued a profound challenge to orthodox thought
+       and belief: no being or species has been specifically
+       created; all are locked into a pitiless struggle for existence,
+      with extinction looming for those not fitted for the task.</Bks:Abstract>
+      <Bks:ISBN>9780785819110</Bks:ISBN>
+    </Bks:Book>
+    <Bks:Book>
+      <Bks:Title>Cosmos</Bks:Title>
+      <Bks:Publisher>Mass Market</Bks:Publisher>
+      <Bks:PublicationYear>2002</Bks:PublicationYear>
+      <Bks:Edition>English edition</Bks:Edition>
+      <Bks:Authors>Carl Sagan</Bks:Authors>
+      <Bks:Abstract>In the book, Sagan explores 15 billion years of cosmic
+       evolution and the development of science and civilization.
+       Cosmos traces the origins of knowledge and the scientific method,
+       mixing science and philosophy, and speculates to the future of science.
+       The book also discusses the underlying premises of science by providing
+       biographical anecdotes about many prominent scientists throughout history,
+       placing their contributions into the broader context of the development
+       of modern science.</Bks:Abstract>
+      <Bks:ISBN>9780375508325</Bks:ISBN>
+    </Bks:Book>
+    <Bks:Book>
+      <Bks:Title>Gödel, Escher, Bach: An Eternal Golden Braid</Bks:Title>
+      <Bks:Publisher>Basic Books</Bks:Publisher>
+      <Bks:PublicationYear>1999</Bks:PublicationYear>
+      <Bks:Edition>Anniversary edition</Bks:Edition>
+      <Bks:Authors>Douglas Hofstadter</Bks:Authors>
+      <Bks:Abstract>Douglas Hofstadter's book is concerned directly with the nature
+       of “maps” or links between formal systems. However, according to
+       Hofstadter, the formal system that underlies all mental activity
+       transcends the system that supports it. If life can grow out of the
+       formal chemical substrate of the cell, if consciousness can emerge out
+       of a formal system of firing neurons, then so too will computers
+       attain human intelligence. Gödel, Escher, Bach is a wonderful
+       exploration of fascinating ideas at the heart of cognitive science:
+       meaning, reduction, recursion, and much more.</Bks:Abstract>
+      <Bks:ISBN>9780465026562</Bks:ISBN>
+    </Bks:Book>
