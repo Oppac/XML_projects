@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://www.bookshop.be Bookshop.xsd">
 
 <Bks:ScientificDepartement>
-   <Bks:Book>
+   <Bks:SBook>
       <Bks:Title>The Origin of Species</Bks:Title>
       <Bks:Publisher>Castle Books</Bks:Publisher>
       <Bks:PublicationYear>1859</Bks:PublicationYear>
@@ -16,8 +16,8 @@
        created; all are locked into a pitiless struggle for existence,
       with extinction looming for those not fitted for the task.</Bks:Abstract>
       <Bks:ISBN>9780785819110</Bks:ISBN>
-    </Bks:Book>
-    <Bks:Book>
+    </Bks:SBook>
+    <Bks:SBook>
       <Bks:Title>Cosmos</Bks:Title>
       <Bks:Publisher>Mass Market</Bks:Publisher>
       <Bks:PublicationYear>2002</Bks:PublicationYear>
@@ -32,8 +32,8 @@
        placing their contributions into the broader context of the development
        of modern science.</Bks:Abstract>
       <Bks:ISBN>9780375508325</Bks:ISBN>
-    </Bks:Book>
-    <Bks:Book>
+    </Bks:SBook>
+    <Bks:SBook>
       <Bks:Title>Gödel, Escher, Bach: An Eternal Golden Braid</Bks:Title>
       <Bks:Publisher>Basic Books</Bks:Publisher>
       <Bks:PublicationYear>1999</Bks:PublicationYear>
@@ -49,11 +49,66 @@
        exploration of fascinating ideas at the heart of cognitive science:
        meaning, reduction, recursion, and much more.</Bks:Abstract>
       <Bks:ISBN>9780465026562</Bks:ISBN>
-    </Bks:Book>
+    </Bks:SBook>
+
+    <Bks:SJournal>
+      <Bks:Title>Scientific American</Bks:Title>
+      <Bks:Publisher>Springer Nature</Bks:Publisher>
+      <Bks:Volume>1</Bks:Volume>
+      <Bks:Number>320</Bks:Number>
+      <Bks:Authors>Clara Moskowitz</Bks:Authors>
+      <Bks:Authors>Barbara King</Bks:Authors>
+      <Bks:Authors>Simon Makin</Bks:Authors>
+      <Bks:PublicationYear>2019</PublicationYear>
+      <Bks:ImpactFactor>
+        <Bks:ImpactFactorName>The Impact</Bks:ImpactFactorName>
+        <Bks:ValidYear>2019</Bks:ValidYear>
+      </Bks:ImpactFactor>
+      <Bks:ContentTable>
+        <Bks:Article>
+          <Bks:ArticleTitle>Neutron Stars: Nature's Weirdest From of Matter</Bks:ArticleTitle>
+          <Bks:ArticleAuthor>Clara Moskowitz</Bks:ArticleAuthor>
+          <Bks:ArticleNb>1</Bks:ArticleNb>
+        </Bks:Article>
+        <Bks:Article>
+          <Bks:ArticleTitle>The Orca's Sorrow</Bks:ArticleTitle>
+          <Bks:ArticleAuthor>Barbara King</Bks:ArticleAuthor>
+          <Bks:ArticleNb>2</Bks:ArticleNb>
+        </Bks:Article>
+        <Bks:Article>
+          <Bks:ArticleTitle>Mania May Be a Mental Illness in Its Own Right</Bks:ArticleTitle>
+          <Bks:ArticleAuthor>Simon Makin</Bks:ArticleAuthor>
+          <Bks:ArticleNb>3</Bks:ArticleNb>
+        </Bks:Article>
+      </Bks:ContentTable>
+    </Bks:SJournal>
+    <Bks:SJournal>
+      <Bks:Title>La Recherche</Bks:Title>
+      <Bks:Publisher>Sophia Publications</Bks:Publisher>
+      <Bks:Volume>1</Bks:Volume>
+      <Bks:Number>544</Bks:Number>
+      <Bks:Authors>Hubert Reeves</Bks:Authors>
+      <Bks:Authors>Jean-Pierre Luminet</Bks:Authors>
+      <Bks:Authors>Serge Abiteboul</Bks:Authors>
+      <Bks:PublicationYear>2019</PublicationYear>
+      <Bks:ContentTable>
+        <Bks:Article>
+          <Bks:ArticleTitle>L'Entropie, comprendre une grande énigme scientifique</Bks:ArticleTitle>
+          <Bks:ArticleAuthor>Hubert Reeves</Bks:ArticleAuthor>
+          <Bks:ArticleAuthor>Jean-Pierre Luminet</Bks:ArticleAuthor>
+          <Bks:ArticleNb>1</Bks:ArticleNb>
+        </Bks:Article>
+        <Bks:Article>
+          <Bks:ArticleTitle>Mais pourquoi les logiciels sont-ils si gros? </Bks:ArticleTitle>
+          <Bks:ArticleAuthor>Serge Abiteboul</Bks:ArticleAuthor>
+          <Bks:ArticleNb>5</Bks:ArticleNb>
+        </Bks:Article>
+      </Bks:ContentTable>
+    </Bks:SJournal>
 </Bks:ScientificDepartement>
 
 <Bks:LeisureDepartement>
-  <Bks:Book>
+  <Bks:LBook>
     <Bks:Title>The Girl with the Dragon Tattoo</Bks:Title>
     <Bks:Publisher>Knopf</Bks:Publisher>
     <Bks:PublicationYear>2008</Bks:PublicationYear>
@@ -61,8 +116,8 @@
     <Bks:Authors>Stieg Larsson</Bks:Authors>
     <Bks:Genre>Thriller</Bks:Genre>
     <Bks:PageNumber>465</PageNumber>
-  </Bks:Book>
-  <Bks:Book>
+  </Bks:LBook>
+  <Bks:LBook>
     <Bks:Title>The Call of Cthulhu and Other Weird Stories</Bks:Title>
     <Bks:Publisher>Penguin Classics</Bks:Publisher>
     <Bks:PublicationYear>1926</Bks:PublicationYear>
@@ -70,8 +125,8 @@
     <Bks:Authors>H.P. Lovecraft</Bks:Authors>
     <Bks:Genre>Horror</Bks:Genre>
     <Bks:PageNumber>420</PageNumber>
-  </Bks:Book>
-  <Bks:Book>
+  </Bks:LBook>
+  <Bks:LBook>
     <Bks:Title>Rendezvous with Rama</Bks:Title>
     <Bks:Publisher>Bantam Spectra</Bks:Publisher>
     <Bks:PublicationYear>1973</Bks:PublicationYear>
@@ -79,8 +134,8 @@
     <Bks:Authors>Arthur C. Clarke</Bks:Authors>
     <Bks:Genre>Sci/fi</Bks:Genre>
     <Bks:PageNumber>243</PageNumber>
-  </Bks:Book>
-  <Bks:Book>
+  </Bks:LBook>
+  <Bks:LBook>
     <Bks:Title>Foundation</Bks:Title>
     <Bks:Publisher>Bantam Spectra</Bks:Publisher>
     <Bks:PublicationYear>1951</Bks:PublicationYear>
@@ -88,8 +143,8 @@
     <Bks:Authors>Isaac Asimov</Bks:Authors>
     <Bks:Genre>Sci/fi</Bks:Genre>
     <Bks:PageNumber>244</PageNumber>
-  </Bks:Book>
-  <Bks:Book>
+  </Bks:LBook>
+  <Bks:LBook>
     <Bks:Title>Pride and Prejudice</Bks:Title>
     <Bks:Publisher>Modern Library</Bks:Publisher>
     <Bks:PublicationYear>1813</Bks:PublicationYear>
@@ -97,8 +152,8 @@
     <Bks:Authors>Jane Austen</Bks:Authors>
     <Bks:Genre>Romance</Bks:Genre>
     <Bks:PageNumber>279</PageNumber>
-  </Bks:Book>
-  <Bks:Book>
+  </Bks:LBook>
+  <Bks:LBook>
     <Bks:Title>le Comte de Monte-Cristo</Bks:Title>
     <Bks:Publisher>Gallimard</Bks:Publisher>
     <Bks:PublicationYear>1844</Bks:PublicationYear>
@@ -106,5 +161,16 @@
     <Bks:Authors>Alexandre Dumas</Bks:Authors>
     <Bks:Genre>Literature</Bks:Genre>
     <Bks:PageNumber>1276</PageNumber>
-  </Bks:Book>
+  </Bks:LBook>
+
+  <Bks:LPeriodical>
+    <Bks:Title>The Economist</Bks:Title>
+    <Bks:Publisher>The Economist Group</Bks:Publisher>
+    <Bks:Price>3.52</Bks:Price>
+  <Bks:LPeriodical>
+  <Bks:LPeriodical>
+    <Bks:Title>L'Histoire</Bks:Title>
+    <Bks:Publisher>Sophia Publications</Bks:Publisher>
+    <Bks:Price>6.40</Bks:Price>
+  <Bks:LPeriodical>
 </Bks:LeisureDepartement>
