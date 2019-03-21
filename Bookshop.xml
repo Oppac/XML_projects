@@ -8,7 +8,7 @@
       <Bks:Title>The Origin of Species</Bks:Title>
       <Bks:Publisher>Castle Books</Bks:Publisher>
       <Bks:PublicationYear>1859</Bks:PublicationYear>
-      <Bks:Edition>English edition</Bks:Edition>
+      <Bks:Edition>English</Bks:Edition>
       <Bks:Authors>Charles Darwin</Bks:Authors>
       <Bks:Abstract>Darwin's theory of natural selection
        issued a profound challenge to orthodox thought
@@ -21,7 +21,7 @@
       <Bks:Title>Cosmos</Bks:Title>
       <Bks:Publisher>Mass Market</Bks:Publisher>
       <Bks:PublicationYear>2002</Bks:PublicationYear>
-      <Bks:Edition>English edition</Bks:Edition>
+      <Bks:Edition>English</Bks:Edition>
       <Bks:Authors>Carl Sagan</Bks:Authors>
       <Bks:Abstract>In the book, Sagan explores 15 billion years of cosmic
        evolution and the development of science and civilization.
@@ -50,3 +50,61 @@
        meaning, reduction, recursion, and much more.</Bks:Abstract>
       <Bks:ISBN>9780465026562</Bks:ISBN>
     </Bks:Book>
+</Bks:ScientificDepartement>
+
+<Bks:LeisureDepartement>
+  <Bks:Book>
+    <Bks:Title>The Girl with the Dragon Tattoo</Bks:Title>
+    <Bks:Publisher>Knopf</Bks:Publisher>
+    <Bks:PublicationYear>2008</Bks:PublicationYear>
+    <Bks:Edition>English</Bks:Edition>
+    <Bks:Authors>Stieg Larsson</Bks:Authors>
+    <Bks:Genre>Thriller</Bks:Genre>
+    <Bks:PageNumber>465</PageNumber>
+  </Bks:Book>
+  <Bks:Book>
+    <Bks:Title>The Call of Cthulhu and Other Weird Stories</Bks:Title>
+    <Bks:Publisher>Penguin Classics</Bks:Publisher>
+    <Bks:PublicationYear>1926</Bks:PublicationYear>
+    <Bks:Edition>English</Bks:Edition>
+    <Bks:Authors>H.P. Lovecraft</Bks:Authors>
+    <Bks:Genre>Horror</Bks:Genre>
+    <Bks:PageNumber>420</PageNumber>
+  </Bks:Book>
+  <Bks:Book>
+    <Bks:Title>Rendezvous with Rama</Bks:Title>
+    <Bks:Publisher>Bantam Spectra</Bks:Publisher>
+    <Bks:PublicationYear>1973</Bks:PublicationYear>
+    <Bks:Edition>English</Bks:Edition>
+    <Bks:Authors>Arthur C. Clarke</Bks:Authors>
+    <Bks:Genre>Sci/fi</Bks:Genre>
+    <Bks:PageNumber>243</PageNumber>
+  </Bks:Book>
+  <Bks:Book>
+    <Bks:Title>Foundation</Bks:Title>
+    <Bks:Publisher>Bantam Spectra</Bks:Publisher>
+    <Bks:PublicationYear>1951</Bks:PublicationYear>
+    <Bks:Edition>English</Bks:Edition>
+    <Bks:Authors>Isaac Asimov</Bks:Authors>
+    <Bks:Genre>Sci/fi</Bks:Genre>
+    <Bks:PageNumber>244</PageNumber>
+  </Bks:Book>
+  <Bks:Book>
+    <Bks:Title>Pride and Prejudice</Bks:Title>
+    <Bks:Publisher>Modern Library</Bks:Publisher>
+    <Bks:PublicationYear>1813</Bks:PublicationYear>
+    <Bks:Edition>English</Bks:Edition>
+    <Bks:Authors>Jane Austen</Bks:Authors>
+    <Bks:Genre>Romance</Bks:Genre>
+    <Bks:PageNumber>279</PageNumber>
+  </Bks:Book>
+  <Bks:Book>
+    <Bks:Title>le Comte de Monte-Cristo</Bks:Title>
+    <Bks:Publisher>Gallimard</Bks:Publisher>
+    <Bks:PublicationYear>1844</Bks:PublicationYear>
+    <Bks:Edition>French</Bks:Edition>
+    <Bks:Authors>Alexandre Dumas</Bks:Authors>
+    <Bks:Genre>Literature</Bks:Genre>
+    <Bks:PageNumber>1276</PageNumber>
+  </Bks:Book>
+</Bks:LeisureDepartement>
