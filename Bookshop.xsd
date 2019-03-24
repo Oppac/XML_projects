@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:bk="http://www.bookshop.be/Books"
-  xmlns:jn="http://wwww.bookshop.be/Journals"
-  targetNamespace="http://www.bookshop.be"
+<xs:schema xmlns:bk="http://www.bookshop.be"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:Bks="http://www.bookshop.be/Bookshop"
+  targetNamespace="http://www.bookshop.be"
   elementFormDefault="qualified">
-
-  <xs:import schemaLocation="Books.xsd"
-             namespace="http://www.bookshop.be/Books" />
-
-  <xs:import schemaLocation="Journals.xsd"
-             namespace="http://wwww.bookshop.be/Journals" />
 
   <xs:element name="Bookshop">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="Bks:ScientificDepartement" />
-        <xs:element ref="Bks:LeisureDepartement" />
+        <xs:element ref="bk:ScientificDepartement" />
+        <xs:element ref="bk:LeisureDepartement" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -24,8 +16,8 @@
   <xs:element name="ScientificDepartement">
     <xs:complexType>
       <xs:sequence>
-        <element name="SBook" type="bk:ScientificBook" minOccurs="0" maxOccurs="xs:unbounded" />
-        <element name="SJournal" type="bk:Journal" minOccurs="0" maxOccurs="xs:unbounded" />
+        <xs:element name="SBook" type="bk:ScientificBook" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="SJournal" type="bk:Journal" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -33,10 +25,136 @@
   <xs:element name="LeisureDepartement">
     <xs:complexType>
       <xs:sequence>
-        <element name="LBook" type="bk:LeisureBook" minOccurs="0" maxOccurs="xs:unbounded" />
-        <element name="LPeriodical" type="bk:Periodical" minOccurs="0" maxOccurs="xs:unbounded" />
+        <xs:element name="LBook" type="bk:LeisureBook" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="LPeriodical" type="bk:Periodical" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
+  <xs:complexType name="AllBooks">
+    <xs:sequence>
+      <xs:element name="Title" type="xs:string" />
+      <xs:element name="Publisher" type="xs:string" />
+      <xs:element name="PublicationYear" type="xs:gYear" />
+      <xs:element name="Edition" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ScientificBook">
+    <xs:complexContent>
+      <xs:extension base="bk:AllBooks">
+        <xs:sequence>
+          <xs:choice>
+            <xs:element name="Authors" type="xs:string" maxOccurs="unbounded" />
+            <xs:element name="Editors" type="xs:string" maxOccurs="unbounded" />
+          </xs:choice>
+          <xs:element name="Abstract" minOccurs="0">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:maxLength value="2500" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name="ISBN">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9]{13}" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="LeisureBook">
+    <xs:complexContent>
+      <xs:extension base="bk:AllBooks">
+        <xs:sequence>
+          <xs:element name="Authors" type="xs:string" maxOccurs="unbounded" />
+          <xs:element name="Genre">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="Thriller" />
+                <xs:enumeration value="Horror" />
+                <xs:enumeration value="Sci/fi" />
+                <xs:enumeration value="Romance" />
+                <xs:enumeration value="Literature" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name="PageNumber" type="xs:positiveInteger" minOccurs="0" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="AllJournals">
+    <xs:sequence>
+      <xs:element name="Title" type="xs:string" />
+      <xs:element name="Publisher" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Journal">
+    <xs:complexContent>
+      <xs:extension base="bk:AllJournals">
+        <xs:sequence>
+          <xs:element name="Volume" type="xs:positiveInteger" />
+          <xs:element name="Number" type="xs:positiveInteger" />
+          <xs:choice>
+            <xs:element name="Authors" type="xs:string" maxOccurs="unbounded" />
+            <xs:element name="Editors" type="xs:string" maxOccurs="unbounded" />
+          </xs:choice>
+          <xs:element name="PublicationYear" type="xs:gYear" />
+          <xs:element name="ImpactFactor" type="bk:ImpactFactor" minOccurs="0" />
+          <xs:element name="ContentTable" type="bk:ContentTable" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="ImpactFactor">
+    <xs:sequence>
+      <xs:element name="ImpactFactorName" type="xs:string" />
+      <xs:element name="ValidYear" type="xs:gYear" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ContentTable">
+    <xs:sequence>
+      <xs:element name="Article" type="bk:Article" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Article">
+    <xs:sequence>
+      <xs:element name="ArticleTitle" type="xs:string" />
+      <xs:element name="ArticleAuthor" type="xs:string" maxOccurs="unbounded" />
+      <xs:choice>
+        <xs:sequence>
+          <xs:element name="ArticleStart" type="xs:positiveInteger" />
+          <xs:element name="ArticleEnd" type="xs:positiveInteger" />
+        </xs:sequence>
+        <xs:element name="ArticleNb" type="xs:positiveInteger" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Periodical">
+    <xs:complexContent>
+      <xs:extension base="bk:AllJournals">
+        <xs:sequence>
+          <xs:element name="Price" type="bk:PositiveDecimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="PositiveDecimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
 
 </xs:schema>
