@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:bk="http://www.bookshop.be"
+<xs:schema xmlns:bk="http://www.project1.be"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  targetNamespace="http://www.bookshop.be"
+  targetNamespace="http://www.project1.be"
   elementFormDefault="qualified">
 
   <xs:element name="Bookshop">

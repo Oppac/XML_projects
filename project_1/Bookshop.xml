@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bookshop
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.bookshop.be Bookshop.xsd"
-  xmlns="http://www.bookshop.be">
+  xsi:schemaLocation="http://www.project1.be Bookshop.xsd"
+  xmlns="http://www.project1.be">
 
   <ScientificDepartement>
      <SBook>
