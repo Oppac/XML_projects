@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookshop
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.bookshop.be Bookshop.xsd"
+  xmlns="http://www.bookshop.be">
+
+  <ScientificDepartement>
+     <SBook>
+        <Title>Anfrageoptimierung in objektrelationalen Datenbanken durch kostenbedingte Termersetzungen</Title>
+        <Publisher>Aka Akademische Verlagsgesellschaft Aka GmbH</Publisher>
+        <PublicationYear>2007</PublicationYear>
+        <Edition>English</Edition>
+        <Authors>Mazeyar E. Makoui</Authors>
+        <Abstract>By now, I hope you’re convinced that you can use XSLT 
+				 to convert big piles of XML data into other useful things.
+				 Our examples to this point have pretty much gone through the
+				 XML source in what’s referred to as document order. 
+				 We’d like to go through our XML documents in a couple of other common ways.</Abstract>
+        <ISBN>9783826616648</ISBN>
+      </SBook>
+      <SBook>
+        <Title>Datenbanken: Konzepte und Sprachen</Title>
+        <Publisher>Redline GmbH</Publisher>
+        <PublicationYear>2008</PublicationYear>
+        <Edition>Flamand</Edition>
+        <Authors>Andreas Heuer</Authors>
+        <Abstract>Es ist schwer unter der Hülle und Fülle der vorhandenen DB-Bücher 
+				  ein ansprechendes und gut geschriebenes und nach Möglichkeit 
+				  Stoffumfassendes Buch zu finden. Doch genau dies ist den Autoren Heuer und Saake gelungen.
+				  Mit klaren Strukturen und Beispielen führen sie den Leser in die Welt der Datenbanken ein.
+				  Jedes Kapitel wird zudem mit passenden Übungsaufgaben beendet,zu welchen es in Zukunft auf 
+				  der zum Buch begleitenden Homepage der Autoren auch Lösungen geben soll.</Abstract>
+        <ISBN>7838266166410</ISBN>
+      </SBook>
+      <SBook>
+        <Title>Understanding Planning Tasks: Domain Complexity and Heuristic Decomposition.</Title>
+        <Publisher>Springer</Publisher>
+        <PublicationYear>1999</PublicationYear>
+        <Edition>Anniversary edition</Edition>
+        <Authors>Malte Helmert</Authors>
+        <Abstract>Action planning has always played a central role in Artificial Intelligence.
+				  Given a description of the current situation, a description of possible actions 
+				  and a description of the goals to be achieved, the task is to identify a sequence of actions,
+				  i.e., a plan that transforms the current situation into one that satisfies the goal description.
+				  This monograph is a revised version of Malte Helmert's doctoral thesis, Solving Planning Tasks 
+				  in Theory and Practice, written under the supervision of Professor Bernhard Nebel as thesis advisor
+				  at Albert-Ludwigs-Universität Freiburg, Germany, in 2006. The book contains an exhaustive analysis 
+				  of the computational complexity of the benchmark problems that have been used in the past decade,
+				  namely the standard benchmark domains of the International Planning Competitions (IPC). 
+				  At the same time, it contributes to the practice of solving planning tasks by presenting a powerful
+				  new approach to heuristic planning. The author also provides an in-depth analysis of so-called routing
+				  and transportation problems..</Abstract>
+        <ISBN>9783540777229</ISBN>
+      </SBook>
+
+      <SJournal>
+        <Title>Inferring Regulations in a Genomic Network from Gene Expression Profiles.</Title>
+        <Publisher>Springer Nature</Publisher>
+        <Volume>1</Volume>
+        <Number>320</Number>
+        <Authors>Nasimul Noman</Authors>
+        <Authors>Hitoshi Iba</Authors>
+        <Authors>Davide Bau</Authors>
+        <PublicationYear>2007</PublicationYear>
+        <ImpactFactor>
+          <ImpactFactorName>The Impact</ImpactFactorName>
+          <ValidYear>2020</ValidYear>
+        </ImpactFactor>
+        <ContentTable>
+          <Article>
+            <ArticleTitle>Filtering Protein Surface Motifs Using Negative Instances of Active Sites Candidates</ArticleTitle>
+            <ArticleAuthor>Takenao Ohkawa</ArticleAuthor>
+            <ArticleNb>1</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>Distill: A Machine Learning Approach to Ab Initio Protein Structure Prediction</ArticleTitle>
+            <ArticleAuthor>Alessandro Vullo</ArticleAuthor>
+            <ArticleNb>2</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>Bioinformatics: Mining the Massive Data from High Throughput Genomics Experiments.</ArticleTitle>
+            <ArticleAuthor>Sun Kim</ArticleAuthor>
+            <ArticleNb>3</ArticleNb>
+          </Article>
+        </ContentTable>
+      </SJournal>
+      <SJournal>
+        <Title>Combining Local and Global History Hashing in Perceptron Branch Prediction.</Title>
+        <Publisher>Anthony Shi-Sheung Fong</Publisher>
+        <Volume>1</Volume>
+        <Number>544</Number>
+        <Authors>C. Y. Ho</Authors>
+        <Authors>Anthony Shi-Sheung Fong</Authors>
+        <Authors>Zhongwen Li</Authors>
+        <PublicationYear>2017</PublicationYear>
+        <ContentTable>
+          <Article>
+            <ArticleTitle>Improving Interactive Experience of Thin Client Computing by Reducing Data Spikes</ArticleTitle>
+            <ArticleAuthor>Sun Yang</ArticleAuthor>
+            <ArticleAuthor>Tay Teng Tiow</ArticleAuthor>
+            <ArticleNb>1</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>Massive Data Delivery in Unstructured Peer-to-Peer Networks with Network Coding</ArticleTitle>
+            <ArticleAuthor>Zhongwen Li</ArticleAuthor>
+            <ArticleNb>5</ArticleNb>
+          </Article>
+        </ContentTable>
+      </SJournal>
+  </ScientificDepartement>
+
+  <LeisureDepartement>
+    <LBook>
+      <Title>The famour people</Title>
+      <Publisher>Athula Ginige</Publisher>
+      <PublicationYear>2008</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Jeewani Anupama Ginige</Authors>
+      <Genre>Thriller</Genre>
+      <PageNumber>460</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>Romantic Stories</Title>
+      <Publisher>Mehdi Parviz</Publisher>
+      <PublicationYear>1926</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Yousof Erfani</Authors>
+      <Genre>Horror</Genre>
+      <PageNumber>520</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>appointement with girl friend </Title>
+      <Publisher>Babak Pazand</Publisher>
+      <PublicationYear>1970</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Chris McDonald</Authors>
+      <Genre>Sci/fi</Genre>
+      <PageNumber>240</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>proud to be humain</Title>
+      <Publisher>Ruhul A. Sarker</Publisher>
+      <PublicationYear>1963</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>David Cornforth</Authors>
+      <Genre>Sci/fi</Genre>
+      <PageNumber>244</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>nobel price</Title>
+      <Publisher>Modern house</Publisher>
+      <PublicationYear>1813</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Peter E. Tischer</Authors>
+      <Genre>Romance</Genre>
+      <PageNumber>270</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>Monte Carlos history</Title>
+      <Publisher>mitp-Verlag</Publisher>
+      <PublicationYear>1844</PublicationYear>
+      <Edition>French</Edition>
+      <Authors>Monte Carlos</Authors>
+      <Genre>Literature</Genre>
+      <PageNumber>1250</PageNumber>
+    </LBook>
+
+    <LPeriodical>
+      <Title>Geographie</Title>
+      <Publisher>The Geographie house</Publisher>
+      <Price>7.50</Price>
+    </LPeriodical>
+    <LPeriodical>
+      <Title>Sciences</Title>
+      <Publisher>kendrich house</Publisher>
+      <Price>9.40</Price>
+    </LPeriodical>
+  </LeisureDepartement>
+</Bookshop>

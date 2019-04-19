@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookshop
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.bookshop.be Bookshop.xsd"
+  xmlns="http://www.bookshop.be">
+
+  <ScientificDepartement>
+     <SBook>
+        <Title>The Origin of Species</Title>
+        <Publisher>Castle Books</Publisher>
+        <PublicationYear>1859</PublicationYear>
+        <Edition>English</Edition>
+        <Authors>Charles Darwin</Authors>
+        <Abstract>Darwin's theory of natural selection
+         issued a profound challenge to orthodox thought
+         and belief: no being or species has been specifically
+         created; all are locked into a pitiless struggle for existence,
+        with extinction looming for those not fitted for the task.</Abstract>
+        <ISBN>9780785819110</ISBN>
+      </SBook>
+      <SBook>
+        <Title>Cosmos</Title>
+        <Publisher>Mass Market</Publisher>
+        <PublicationYear>2002</PublicationYear>
+        <Edition>English</Edition>
+        <Authors>Carl Sagan</Authors>
+        <Abstract>In the book, Sagan explores 15 billion years of cosmic
+         evolution and the development of science and civilization.
+         Cosmos traces the origins of knowledge and the scientific method,
+         mixing science and philosophy, and speculates to the future of science.
+         The book also discusses the underlying premises of science by providing
+         biographical anecdotes about many prominent scientists throughout history,
+         placing their contributions into the broader context of the development
+         of modern science.</Abstract>
+        <ISBN>9780375508325</ISBN>
+      </SBook>
+      <SBook>
+        <Title>Gödel, Escher, Bach: An Eternal Golden Braid</Title>
+        <Publisher>Basic Books</Publisher>
+        <PublicationYear>1999</PublicationYear>
+        <Edition>Anniversary edition</Edition>
+        <Authors>Douglas Hofstadter</Authors>
+        <Abstract>Douglas Hofstadter's book is concerned directly with the nature
+         of “maps” or links between formal systems. However, according to
+         Hofstadter, the formal system that underlies all mental activity
+         transcends the system that supports it. If life can grow out of the
+         formal chemical substrate of the cell, if consciousness can emerge out
+         of a formal system of firing neurons, then so too will computers
+         attain human intelligence. Gödel, Escher, Bach is a wonderful
+         exploration of fascinating ideas at the heart of cognitive science:
+         meaning, reduction, recursion, and much more.</Abstract>
+        <ISBN>9780465026562</ISBN>
+      </SBook>
+
+      <SJournal>
+        <Title>Scientific American</Title>
+        <Publisher>Springer Nature</Publisher>
+        <Volume>1</Volume>
+        <Number>320</Number>
+        <Authors>Clara Moskowitz</Authors>
+        <Authors>Barbara King</Authors>
+        <Authors>Simon Makin</Authors>
+        <PublicationYear>2019</PublicationYear>
+        <ImpactFactor>
+          <ImpactFactorName>The Impact</ImpactFactorName>
+          <ValidYear>2019</ValidYear>
+        </ImpactFactor>
+        <ContentTable>
+          <Article>
+            <ArticleTitle>Neutron Stars: Nature's Weirdest From of Matter</ArticleTitle>
+            <ArticleAuthor>Clara Moskowitz</ArticleAuthor>
+            <ArticleNb>1</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>The Orca's Sorrow</ArticleTitle>
+            <ArticleAuthor>Barbara King</ArticleAuthor>
+            <ArticleNb>2</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>Mania May Be a Mental Illness in Its Own Right</ArticleTitle>
+            <ArticleAuthor>Simon Makin</ArticleAuthor>
+            <ArticleNb>3</ArticleNb>
+          </Article>
+        </ContentTable>
+      </SJournal>
+      <SJournal>
+        <Title>La Recherche</Title>
+        <Publisher>Sophia Publications</Publisher>
+        <Volume>1</Volume>
+        <Number>544</Number>
+        <Authors>Hubert Reeves</Authors>
+        <Authors>Jean-Pierre Luminet</Authors>
+        <Authors>Serge Abiteboul</Authors>
+        <PublicationYear>2019</PublicationYear>
+        <ContentTable>
+          <Article>
+            <ArticleTitle>L'Entropie, comprendre une grande énigme scientifique</ArticleTitle>
+            <ArticleAuthor>Hubert Reeves</ArticleAuthor>
+            <ArticleAuthor>Jean-Pierre Luminet</ArticleAuthor>
+            <ArticleNb>1</ArticleNb>
+          </Article>
+          <Article>
+            <ArticleTitle>Mais pourquoi les logiciels sont-ils si gros? </ArticleTitle>
+            <ArticleAuthor>Serge Abiteboul</ArticleAuthor>
+            <ArticleNb>5</ArticleNb>
+          </Article>
+        </ContentTable>
+      </SJournal>
+  </ScientificDepartement>
+
+  <LeisureDepartement>
+    <LBook>
+      <Title>The Girl with the Dragon Tattoo</Title>
+      <Publisher>Knopf</Publisher>
+      <PublicationYear>2008</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Stieg Larsson</Authors>
+      <Genre>Thriller</Genre>
+      <PageNumber>465</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>The Call of Cthulhu and Other Weird Stories</Title>
+      <Publisher>Penguin Classics</Publisher>
+      <PublicationYear>1926</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>H.P. Lovecraft</Authors>
+      <Genre>Horror</Genre>
+      <PageNumber>420</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>Rendezvous with Rama</Title>
+      <Publisher>Bantam Spectra</Publisher>
+      <PublicationYear>1973</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Arthur C. Clarke</Authors>
+      <Genre>Sci/fi</Genre>
+      <PageNumber>243</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>Foundation</Title>
+      <Publisher>Bantam Spectra</Publisher>
+      <PublicationYear>1951</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Isaac Asimov</Authors>
+      <Genre>Sci/fi</Genre>
+      <PageNumber>244</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>Pride and Prejudice</Title>
+      <Publisher>Modern Library</Publisher>
+      <PublicationYear>1813</PublicationYear>
+      <Edition>English</Edition>
+      <Authors>Jane Austen</Authors>
+      <Genre>Romance</Genre>
+      <PageNumber>279</PageNumber>
+    </LBook>
+    <LBook>
+      <Title>le Comte de Monte-Cristo</Title>
+      <Publisher>Gallimard</Publisher>
+      <PublicationYear>1844</PublicationYear>
+      <Edition>French</Edition>
+      <Authors>Alexandre Dumas</Authors>
+      <Genre>Literature</Genre>
+      <PageNumber>1276</PageNumber>
+    </LBook>
+
+    <LPeriodical>
+      <Title>The Economist</Title>
+      <Publisher>The Economist Group</Publisher>
+      <Price>3.52</Price>
+    </LPeriodical>
+    <LPeriodical>
+      <Title>L'Histoire</Title>
+      <Publisher>Sophia Publications</Publisher>
+      <Price>6.40</Price>
+    </LPeriodical>
+  </LeisureDepartement>
+</Bookshop>
