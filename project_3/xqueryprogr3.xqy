@@ -1,5 +1,3 @@
-(:Thomas Bardisbanian, Borel Thomas Kamdem Tagne:)
-
 declare function local:distance($author_one, $author_two, $authors, $visited, $counter, $dblp){
     let $co_authors := $dblp/*[author = $authors]/author[not(. = $authors) and not(. = $visited)]
     let $dist := (

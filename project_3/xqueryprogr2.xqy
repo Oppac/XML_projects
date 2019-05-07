@@ -1,5 +1,3 @@
-(:Thomas Bardisbanian, Borel Thomas Kamdem Tagne:)
-
 for $proceeding in doc("dblp-excerpt.xml")/dblp/proceedings
 	
 	return <proceedings>

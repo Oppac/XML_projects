@@ -1,5 +1,3 @@
-(:Thomas Bardisbanian, Borel Thomas Kamdem Tagne:)
-
 <authors_coauthors>
 {
     
